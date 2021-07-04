@@ -1,0 +1,256 @@
+* {
+  text-decoration: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.wrapper {
+  width: 1100px;
+  margin: auto;
+  padding: relative;
+}
+
+.logo img {
+  width: 10%;
+  display: flex;
+  float: left;
+}
+
+.menu {
+  float: right;
+}
+
+nav {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  line-height: 100px;
+  position: sticky;
+  position: -webkit-sticky; /* browser safari*/
+  top: 0;
+  background: #ffffff;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+nav ul li {
+  float: left;
+}
+
+nav ul li a {
+  color: gray;
+  font-weight: 800;
+  text-align: center;
+  padding: 0px 5px 0px 5px;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+  color: #840483;
+  font-weight: 800;
+}
+
+/*----------------------- HOME -------------------------*/
+
+#home img {
+  width: 100%;
+  margin-bottom: 100px;
+}
+
+section {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  margin-bottom: 50px;
+}
+
+#home {
+  float: left;
+  position: relative;
+}
+
+.deskripsi-home {
+  font-size: 50px;
+  font-weight: bold;
+  font-family: "Times New Roman", Times;
+  color: black;
+  position: absolute;
+  top: 220px;
+  right: 220px;
+  text-align: right;
+}
+
+h2.isian-home {
+  font-family: "Times New Roman", Times;
+  font-weight: 100;
+  font-size: 20px;
+  color: black;
+  line-height: 20px;
+  position: absolute;
+  top: 300px;
+  right: 150px;
+  text-align: center;
+  width: 30%;
+}
+
+.btn-putih {
+  background: #ffffff;
+  color: black;
+  border: 2px solid #840483;
+  border-radius: 20px;
+  margin-top: 20px;
+  padding: 10px 40px 10px 40px;
+  box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.2);
+}
+
+.btn-putih:hover {
+  background: #840483;
+  color: #ffffff;
+  border: 2px solid #ffffff;
+  border-radius: 20px;
+  margin-top: 20px;
+  padding: 10px 40px 10px 40px;
+}
+
+.btn-ungu {
+  position: absolute;
+  top: 500px;
+  right: 300px;
+  border: 2px solid #ffffff;
+  border-radius: 100px;
+  padding: 10px 30px 10px 30px;
+  background: #840483;
+  color: #ffffff;
+  cursor: pointer;
+  font-weight: bold;
+  box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.2);
+}
+
+.btn-ungu:hover {
+  background: white;
+  border: 2px solid #840483;
+  color: #840483;
+}
+
+/*----------------------- PRODUK -------------------------*/
+
+#produk img {
+  margin-top: 80px;
+  width: 100%;
+}
+
+.deskripsi-produk {
+  margin-top: 80px;
+  font-size: 50px;
+  font-weight: bold;
+  font-family: "Times New Roman", Times;
+  color: black;
+  position: absolute;
+  top: 1000px;
+  left: 600px;
+  text-align: center;
+}
+
+h2.isian-produk {
+  margin-top: 80px;
+  font-family: "Times New Roman", Times;
+  font-weight: 100;
+  font-size: 20px;
+  color: black;
+  line-height: 20px;
+  position: absolute;
+  top: 1100px;
+  left: 200px;
+  text-align: center;
+  width: 70%;
+}
+
+.bilof {
+  margin-top: 80px;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: "Times New Roman", Times;
+  color: #ffffff;
+  position: absolute;
+  top: 1340px;
+  left: 560px;
+  text-align: center;
+}
+
+h2.isian-bilof {
+  margin-top: 80px;
+  font-family: "Times New Roman", Times;
+  font-weight: 100;
+  font-size: 15px;
+  color: #ffffff;
+  line-height: 15px;
+  position: absolute;
+  top: 1380px;
+  left: 560px;
+  text-align: left;
+  width: 30%;
+}
+
+.bilen {
+  margin-top: 80px;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: "Times New Roman", Times;
+  color: #ffffff;
+  position: absolute;
+  top: 1500px;
+  left: 560px;
+  text-align: center;
+}
+
+h2.isian-bilen {
+  margin-top: 80px;
+  font-family: "Times New Roman", Times;
+  font-weight: 100;
+  font-size: 15px;
+  color: #ffffff;
+  line-height: 15px;
+  position: absolute;
+  top: 1540px;
+  left: 560px;
+  text-align: left;
+  width: 30%;
+}
+
+.posik {
+  margin-top: 80px;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: "Times New Roman", Times;
+  color: #ffffff;
+  position: absolute;
+  top: 1670px;
+  left: 560px;
+  text-align: center;
+}
+
+h2.isian-posik {
+  margin-top: 80px;
+  font-family: "Times New Roman", Times;
+  font-weight: 100;
+  font-size: 15px;
+  color: #ffffff;
+  line-height: 15px;
+  position: absolute;
+  top: 1710px;
+  left: 560px;
+  text-align: left;
+  width: 30%;
+}
