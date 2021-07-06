@@ -28,6 +28,7 @@ body {
 
 nav {
   width: 100%;
+  z-index: 1;
   margin: auto;
   display: flex;
   line-height: 100px;
@@ -89,7 +90,6 @@ section {
   position: absolute;
   top: 220px;
   right: 220px;
-  text-align: right;
 }
 
 h2.isian-home {
@@ -101,7 +101,7 @@ h2.isian-home {
   position: absolute;
   top: 300px;
   right: 150px;
-  text-align: center;
+  text-align: justify;
   width: 30%;
 }
 
@@ -126,8 +126,8 @@ h2.isian-home {
 
 .btn-ungu {
   position: absolute;
-  top: 500px;
-  right: 300px;
+  top: 450px;
+  right: 290px;
   border: 2px solid #ffffff;
   border-radius: 100px;
   padding: 10px 30px 10px 30px;
@@ -152,7 +152,7 @@ h2.isian-home {
 }
 
 .deskripsi-produk {
-  margin-top: 80px;
+  margin-top: 100px;
   font-size: 50px;
   font-weight: bold;
   font-family: "Times New Roman", Times;
@@ -177,7 +177,7 @@ h2.isian-produk {
   width: 70%;
 }
 
-.bilof {
+.produk-bilof {
   margin-top: 80px;
   font-size: 30px;
   font-weight: bold;
@@ -189,7 +189,7 @@ h2.isian-produk {
   text-align: center;
 }
 
-h2.isian-bilof {
+h2.isian-produk-bilof {
   margin-top: 80px;
   font-family: "Times New Roman", Times;
   font-weight: 100;
@@ -203,7 +203,7 @@ h2.isian-bilof {
   width: 30%;
 }
 
-.bilen {
+.produk-bilen {
   margin-top: 80px;
   font-size: 30px;
   font-weight: bold;
@@ -215,7 +215,7 @@ h2.isian-bilof {
   text-align: center;
 }
 
-h2.isian-bilen {
+h2.isian-produk-bilen {
   margin-top: 80px;
   font-family: "Times New Roman", Times;
   font-weight: 100;
@@ -229,7 +229,7 @@ h2.isian-bilen {
   width: 30%;
 }
 
-.posik {
+.produk-posik {
   margin-top: 80px;
   font-size: 30px;
   font-weight: bold;
@@ -241,7 +241,7 @@ h2.isian-bilen {
   text-align: center;
 }
 
-h2.isian-posik {
+h2.isian-produk-posik {
   margin-top: 80px;
   font-family: "Times New Roman", Times;
   font-weight: 100;
@@ -253,4 +253,192 @@ h2.isian-posik {
   left: 560px;
   text-align: left;
   width: 30%;
+}
+
+/*----------------------- BLOG -------------------------*/
+
+#blog video {
+  margin: 150px 50px 200px 100px;
+  width: 40%;
+}
+
+.kolom {
+  font-family: "Times New Roman", Times;
+  margin-top: 200px;
+}
+
+.kolom h2.deskripsi-blog {
+  font-weight: 800;
+  margin-bottom: 30px;
+}
+
+.kolom p.isian-blog {
+  line-height: 20px;
+  margin-right: 30px;
+}
+
+/*----------------------- TESTIMONI -------------------------*/
+
+.testimoni {
+  background-color: #840483;
+  height: 570px;
+}
+
+h2#testimoni {
+  font-family: "Times New Roman", Times;
+  font-weight: 800;
+  font-size: 50px;
+  margin-bottom: 30px;
+  text-align: center;
+  color: #ffffff;
+  padding-top: 110px;
+}
+
+#testimoni-img img {
+  text-align: center;
+  width: 30%;
+  margin: auto;
+  border: 0px solid #ffffff;
+  border-radius: 20%;
+  box-shadow: 0 20px 20px 0 rgba(0, 0, 0, 0.2);
+}
+
+#testimoni-img img:hover {
+  border: 9px solid #840483;
+}
+
+/*----------------------- REVIEW -------------------------*/
+h2#review {
+  font-family: "Times New Roman", Times;
+  font-weight: 800;
+  font-size: 50px;
+  margin-bottom: 30px;
+  text-align: center;
+  color: black;
+  padding-top: 120px;
+}
+
+#review-img img {
+  text-align: center;
+  width: 10%;
+  margin: auto;
+  border: 0px solid #ffffff;
+  border-radius: 20%;
+  box-shadow: 0 20px 20px 0 rgba(0, 0, 0, 0.2);
+}
+
+a.btn-portfolio {
+  position: relative;
+  margin-left: 590px;
+  border: 2px solid #ffffff;
+  border-radius: 100px;
+  line-height: 150px;
+  padding: 10px 50px 10px 50px;
+  background: #840483;
+  color: #ffffff;
+  cursor: pointer;
+  font-weight: bold;
+  box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.2);
+}
+
+.btn-portfolio:hover {
+  background: white;
+  border: 2px solid #840483;
+  color: #840483;
+}
+
+.portfolio {
+  margin: 50px;
+}
+
+.portfolio img {
+  width: 80%;
+  margin: 20px 50px 50px 150px;
+  border: 2px solid black;
+  border-radius: 10%;
+  padding: 10px 10px 10px 10px;
+  box-shadow: 15px 15px 15px 15px rgba(0, 0, 0, 0.2);
+}
+
+h2.judul-portfolio {
+  font-size: 50px;
+  font-weight: bold;
+  font-family: "Times New Roman", Times;
+  color: black;
+  position: absolute;
+  top: 4000px;
+  left: 300px;
+}
+
+p.isian-portfolio {
+  font-family: "Times New Roman", Times;
+  font-weight: 100;
+  font-size: 18px;
+  color: black;
+  line-height: 20px;
+  position: absolute;
+  top: 4080px;
+  left: 300px;
+  text-align: justify;
+  width: 30%;
+}
+
+h2.bilen {
+  font-size: 30px;
+  font-weight: bold;
+  font-family: "Times New Roman", Times;
+  color: black;
+  position: absolute;
+  top: 4180px;
+  left: 300px;
+}
+
+h2.bilof {
+  font-size: 30px;
+  font-weight: bold;
+  font-family: "Times New Roman", Times;
+  color: black;
+  position: absolute;
+  top: 4280px;
+  left: 300px;
+}
+
+a.btn-bilen {
+  position: absolute;
+  top: 4225px;
+  left: 300px;
+  border: 2px solid #ffffff;
+  border-radius: 100px;
+  padding: 5px 30px 5px 30px;
+  background: #840483;
+  color: #ffffff;
+  cursor: pointer;
+  font-weight: bold;
+  box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.2);
+}
+
+a.btn-bilen:hover {
+  background: white;
+  border: 2px solid #840483;
+  color: #840483;
+}
+
+a.btn-bilof {
+  position: absolute;
+  top: 4325px;
+  left: 300px;
+  border: 2px solid #ffffff;
+  border-radius: 100px;
+  padding: 5px 30px 5px 30px;
+  background: #840483;
+  color: #ffffff;
+  cursor: pointer;
+  font-weight: bold;
+  box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.2);
+}
+
+a.btn-bilof:hover {
+  background: white;
+  border: 2px solid #840483;
+  color: #840483;
 }
