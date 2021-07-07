@@ -8,6 +8,7 @@ body {
   margin: 0px;
   padding: 0px;
   font-family: "Open Sans", sans-serif;
+  height: 3500px;
 }
 
 .wrapper {
@@ -441,4 +442,467 @@ a.btn-bilof:hover {
   background: white;
   border: 2px solid #840483;
   color: #840483;
+}
+
+/*------------------------------------------------*/
+
+/*-------------------BILEN PAGE-------------------*/
+
+/*------------------------------------------------*/
+
+.bilen-home {
+  width: 100%;
+  margin: auto;
+  margin-bottom: 50px;
+}
+
+.bilen-home img {
+  width: 100%;
+}
+
+h2.judul-bilen-home {
+  font-size: 50px;
+  font-weight: bold;
+  font-family: "Times New Roman", Times;
+  color: black;
+  position: absolute;
+  top: 290px;
+  left: 100px;
+}
+
+p.isian-bilen-home {
+  font-family: "Times New Roman", Times;
+  font-weight: 100;
+  font-size: 20px;
+  color: black;
+  line-height: 20px;
+  position: absolute;
+  top: 380px;
+  left: 100px;
+  text-align: justify;
+  width: 30%;
+}
+
+.btn-bilen-home {
+  position: absolute;
+  top: 520px;
+  left: 130px;
+  border: 2px solid #ffffff;
+  border-radius: 10px;
+  padding: 10px 40px 10px 40px;
+  background: #fcd062;
+  color: black;
+  cursor: pointer;
+  font-weight: bold;
+  box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.2);
+}
+
+.btn-bilen-home:hover {
+  background: #840483;
+  border: 2px solid #ffffff;
+  color: #ffffff;
+}
+
+.btn-bilof-home {
+  position: absolute;
+  top: 520px;
+  left: 300px;
+  border: 2px solid #ffffff;
+  border-radius: 10px;
+  padding: 10px 40px 10px 40px;
+  background: #fcd062;
+  color: black;
+  cursor: pointer;
+  font-weight: bold;
+  box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.2);
+}
+
+.btn-bilof-home:hover {
+  background: #840483;
+  border: 2px solid #ffffff;
+  color: #ffffff;
+}
+
+h2.jenjang {
+  font-family: "Times New Roman", Times;
+  font-weight: 800;
+  background: #840483;
+  color: #ffffff;
+  text-align: center;
+  width: 100%;
+  height: 80px;
+  padding-top: 50px;
+}
+
+h2.judul-paud {
+  font-family: "Times New Roman", Times;
+  font-weight: 800;
+  width: 100%;
+  color: black;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.paud img {
+  width: 20%;
+  margin: auto;
+  padding: 20px;
+  border: 0px solid #ffffff;
+  border-radius: 15%;
+}
+
+.btn-paud-1 {
+  font-family: "Times New Roman", Times;
+  position: absolute;
+  font-size: 25px;
+  font-weight: bold;
+  top: 1280px;
+  left: 130px;
+  border: 2px solid #ffffff;
+  border-radius: 10px;
+  padding: 10px 40px 10px 40px;
+  background: #fcd062;
+  color: black;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.btn-paud-1:hover {
+  background: #840483;
+  border: 2px solid #ffffff;
+  color: #ffffff;
+}
+
+.btn-paud-2 {
+  font-family: "Times New Roman", Times;
+  position: absolute;
+  font-size: 25px;
+  font-weight: bold;
+  top: 1280px;
+  left: 580px;
+  border: 2px solid #ffffff;
+  border-radius: 10px;
+  padding: 10px 40px 10px 40px;
+  background: #fcd062;
+  color: black;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.btn-paud-2:hover {
+  background: #840483;
+  border: 2px solid #ffffff;
+  color: #ffffff;
+}
+
+.btn-paud-3 {
+  font-family: "Times New Roman", Times;
+  position: absolute;
+  font-size: 25px;
+  font-weight: bold;
+  top: 1280px;
+  right: 130px;
+  border: 2px solid #ffffff;
+  border-radius: 10px;
+  padding: 10px 40px 10px 40px;
+  background: #fcd062;
+  color: black;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.btn-paud-3:hover {
+  background: #840483;
+  border: 2px solid #ffffff;
+  color: #ffffff;
+}
+
+h2.judul-sd {
+  font-family: "Times New Roman", Times;
+  font-weight: 800;
+  width: 100%;
+  color: black;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.sd img {
+  width: 20%;
+  margin: auto;
+  padding: 20px;
+  border: 0px solid #ffffff;
+  border-radius: 15%;
+}
+
+.btn-sd-1 {
+  font-family: "Times New Roman", Times;
+  position: absolute;
+  font-size: 25px;
+  font-weight: bold;
+  top: 1780px;
+  left: 130px;
+  border: 2px solid #ffffff;
+  border-radius: 10px;
+  padding: 10px 40px 10px 40px;
+  background: #fcd062;
+  color: black;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.btn-sd-1:hover {
+  background: #840483;
+  border: 2px solid #ffffff;
+  color: #ffffff;
+}
+
+.btn-sd-2 {
+  font-family: "Times New Roman", Times;
+  position: absolute;
+  font-size: 25px;
+  font-weight: bold;
+  top: 1780px;
+  left: 580px;
+  border: 2px solid #ffffff;
+  border-radius: 10px;
+  padding: 10px 40px 10px 40px;
+  background: #fcd062;
+  color: black;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.btn-sd-2:hover {
+  background: #840483;
+  border: 2px solid #ffffff;
+  color: #ffffff;
+}
+
+.btn-sd-3 {
+  font-family: "Times New Roman", Times;
+  position: absolute;
+  font-size: 25px;
+  font-weight: bold;
+  top: 1780px;
+  right: 130px;
+  border: 2px solid #ffffff;
+  border-radius: 10px;
+  padding: 10px 40px 10px 40px;
+  background: #fcd062;
+  color: black;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.btn-sd-3:hover {
+  background: #840483;
+  border: 2px solid #ffffff;
+  color: #ffffff;
+}
+
+h2.judul-smp {
+  font-family: "Times New Roman", Times;
+  font-weight: 800;
+  width: 100%;
+  color: black;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.smp img {
+  width: 20%;
+  margin: auto;
+  padding: 20px;
+  border: 0px solid #ffffff;
+  border-radius: 15%;
+}
+
+.btn-smp-1 {
+  font-family: "Times New Roman", Times;
+  position: absolute;
+  font-size: 25px;
+  font-weight: bold;
+  top: 2280px;
+  left: 130px;
+  border: 2px solid #ffffff;
+  border-radius: 10px;
+  padding: 10px 40px 10px 40px;
+  background: #fcd062;
+  color: black;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.btn-smp-1:hover {
+  background: #840483;
+  border: 2px solid #ffffff;
+  color: #ffffff;
+}
+
+.btn-smp-2 {
+  font-family: "Times New Roman", Times;
+  position: absolute;
+  font-size: 25px;
+  font-weight: bold;
+  top: 2280px;
+  left: 580px;
+  border: 2px solid #ffffff;
+  border-radius: 10px;
+  padding: 10px 40px 10px 40px;
+  background: #fcd062;
+  color: black;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.btn-smp-2:hover {
+  background: #840483;
+  border: 2px solid #ffffff;
+  color: #ffffff;
+}
+
+.btn-smp-3 {
+  font-family: "Times New Roman", Times;
+  position: absolute;
+  font-size: 25px;
+  font-weight: bold;
+  top: 2280px;
+  right: 130px;
+  border: 2px solid #ffffff;
+  border-radius: 10px;
+  padding: 10px 40px 10px 40px;
+  background: #fcd062;
+  color: black;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.btn-smp-3:hover {
+  background: #840483;
+  border: 2px solid #ffffff;
+  color: #ffffff;
+}
+
+h2.judul-sma {
+  font-family: "Times New Roman", Times;
+  font-weight: 800;
+  width: 100%;
+  color: black;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.sma img {
+  width: 20%;
+  margin: auto;
+  padding: 20px;
+  border: 0px solid #ffffff;
+  border-radius: 15%;
+}
+
+.btn-sma-1 {
+  font-family: "Times New Roman", Times;
+  position: absolute;
+  font-size: 25px;
+  font-weight: bold;
+  top: 2780px;
+  left: 130px;
+  border: 2px solid #ffffff;
+  border-radius: 10px;
+  padding: 10px 40px 10px 40px;
+  background: #fcd062;
+  color: black;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.btn-sma-1:hover {
+  background: #840483;
+  border: 2px solid #ffffff;
+  color: #ffffff;
+}
+
+.btn-sma-2 {
+  font-family: "Times New Roman", Times;
+  position: absolute;
+  font-size: 25px;
+  font-weight: bold;
+  top: 2780px;
+  left: 580px;
+  border: 2px solid #ffffff;
+  border-radius: 10px;
+  padding: 10px 40px 10px 40px;
+  background: #fcd062;
+  color: black;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.btn-sma-2:hover {
+  background: #840483;
+  border: 2px solid #ffffff;
+  color: #ffffff;
+}
+
+.btn-sma-3 {
+  font-family: "Times New Roman", Times;
+  position: absolute;
+  font-size: 25px;
+  font-weight: bold;
+  top: 2780px;
+  right: 130px;
+  border: 2px solid #ffffff;
+  border-radius: 10px;
+  padding: 10px 40px 10px 40px;
+  background: #fcd062;
+  color: black;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.btn-sma-3:hover {
+  background: #840483;
+  border: 2px solid #ffffff;
+  color: #ffffff;
+}
+
+h2.kuliah {
+  font-family: "Times New Roman", Times;
+  font-weight: 800;
+  width: 100%;
+  color: black;
+  text-align: center;
+  padding-top: 50px;
+}
+
+p.isian-kuliah {
+  font-family: "Times New Roman", Times;
+  width: 500px;
+  margin: auto;
+  font-size: 20px;
+  color: black;
+  text-align: justify;
+  padding-top: 50px;
+  margin-bottom: 50px;
+}
+
+.btn-kuliah {
+  font-family: "Times New Roman", Times;
+  position: absolute;
+  font-size: 25px;
+  font-weight: bold;
+  left: 580px;
+  border: 2px solid #ffffff;
+  border-radius: 30px;
+  padding: 10px 60px 10px 60px;
+  background: #fcd062;
+  color: black;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.btn-kuliah:hover {
+  background: #840483;
+  border: 2px solid #ffffff;
+  color: #ffffff;
 }
